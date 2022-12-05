@@ -1,4 +1,42 @@
 body {
     width:100vw;
     height:100vh;
+    margin:0;
+    padding:0;
+    
+    &>section 
+    {
+        background:linear-gradient(to right, rgb(0,0,255, 0.5), rgb(255,0,0, 0.5));
+        background-image: url("https://media.discordapp.net/attachments/1044536849626058862/1049261954025406514/inner-pagebg.jpg?width=1025&height=214"), ;
+        background-size:cover;
+        
+        header
+        {
+        
+            nav 
+            {
+                display:grid;
+                grid-template-columns: 0.2fr 1fr 0.5fr;
+                
+                figure 
+                {
+                    grid-column: 1/2;
+                }
+                
+                &>ul 
+                {
+                    grid-column: 2/3;
+                    li 
+                    {
+                        color:#fff;
+                        font-size: 1.5em;
+                        display:inline-block;
+                        padding-right:40px;
+                    }
+                }
+            }
+        }
+        
+        
+    }
 }
