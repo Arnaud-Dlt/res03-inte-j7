@@ -98,6 +98,10 @@ body main #course_content h4 {
   height: 7vh;
   background-color: #A9CCE3;
 }
+body main #course_content li {
+  border-bottom: 1px solid #A9CCE3;
+  padding: 15px;
+}
 body main #instructor {
   width: 70vw;
   border: 1px solid #A9CCE3;
