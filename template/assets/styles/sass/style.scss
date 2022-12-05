@@ -6,8 +6,8 @@ body {
     
     &>section 
     {
+        background-image: url("https://media.discordapp.net/attachments/1044536849626058862/1049261954025406514/inner-pagebg.jpg?width=1025&height=214");
         background:linear-gradient(to right, rgb(0,0,255, 0.5), rgb(255,0,0, 0.5));
-        background-image: url("https://media.discordapp.net/attachments/1044536849626058862/1049261954025406514/inner-pagebg.jpg?width=1025&height=214"), ;
         background-size:cover;
         
         header
@@ -17,6 +17,8 @@ body {
             {
                 display:grid;
                 grid-template-columns: 0.2fr 1fr 0.5fr;
+                border-bottom:1px solid grey;
+                height:15vh;
                 
                 figure 
                 {
@@ -26,6 +28,10 @@ body {
                 &>ul 
                 {
                     grid-column: 2/3;
+                    align-self:center;
+                    justify-self:center;
+                    border-left:1px solid grey;
+                    
                     li 
                     {
                         color:#fff;
@@ -34,6 +40,11 @@ body {
                         padding-right:40px;
                     }
                 }
+            }
+            section {
+                color:#fff;
+                text-align:center;
+                margin-top:20vh;
             }
         }
         
